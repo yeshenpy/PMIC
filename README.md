@@ -72,4 +72,4 @@ If you use our method or code in your research, please consider citing the paper
 
 ## License & Acknowledgements
 
-PMIC is licensed under the MIT license. [MuJoCo](https://github.com/deepmind/mujoco) and [DeepMind Control Suite](https://github.com/deepmind/dm_control) are licensed under the Apache 2.0 license. We thank the [DrQv2](https://github.com/facebookresearch/drqv2) authors for their implementation of DMControl wrappers.
+PMIC is licensed under the MIT license. [MPE](https://github.com/openai/multiagent-particle-envs) are licensed under the Apache 2.0 license. 
