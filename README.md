@@ -4,6 +4,7 @@ Original PyTorch implementation of PMIC from PMIC: Improving Multi-Agent Reinfor
 
 <p align="center">
   <br><img src='fig/PMIC.png' width="600"/><br>
+  <br><img src='fig/result.png' width="600"/><br>
   <a href="https://arxiv.org/abs/2203.08553">[Paper]
 </p>
 
