@@ -4,7 +4,7 @@ Original PyTorch implementation of PMIC from PMIC: Improving Multi-Agent Reinfor
 
 <p align="center">
   <br><img src='fig/PMIC.png' width="600"/><br>
-  % <a href="https://arxiv.org/abs/2203.04955">[Paper]</a>&emsp;<a href="https://nicklashansen.github.io/td-mpc">[Website]</a>
+  <a href="https://arxiv.org/abs/2203.08553">[Paper]
 </p>
 
 ## Method
@@ -50,22 +50,16 @@ run the `run.sh` file directly
 - `./run.sh`: command-line file 
 
 
-Evaluation videos and model weights can be saved with arguments `save_video=True` and `save_model=True`. Refer to the `cfgs` directory for a full list of options and default hyperparameters, and see `tasks.txt` for a list of supported tasks. We also provide results for all 23 DMControl tasks in the `results` directory.
-
-The training script supports both local logging as well as cloud-based logging with [Weights & Biases](https://wandb.ai). To use W&B, provide a key by setting the environment variable `WANDB_API_KEY=<YOUR_KEY>` and add your W&B project and entity details to `cfgs/default.yaml`.
-
 ## Citation
 
 If you use our method or code in your research, please consider citing the paper as follows:
 
 ```
-@article{xxxxx,
-	title={PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration},
-	author={xxxx},
-	eprint={2203.04955},
-	archivePrefix={arXiv},
-	primaryClass={cs.LG},
-	year={2022}
+@article{li2022pmic,
+  title={PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration},
+  author={Li, Pengyi and Tang, Hongyao and Yang, Tianpei and Hao, Xiaotian and Sang, Tong and Zheng, Yan and Hao, Jianye and Taylor, Matthew E and Wang, Zhen},
+  journal={arXiv preprint arXiv:2203.08553},
+  year={2022}
 }
 ```
 
