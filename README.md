@@ -59,7 +59,7 @@ If you use our method or code in your research, please consider citing the paper
 @article{li2022pmic,
   title={PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration},
   author={Li, Pengyi and Tang, Hongyao and Yang, Tianpei and Hao, Xiaotian and Sang, Tong and Zheng, Yan and Hao, Jianye and Taylor, Matthew E and Wang, Zhen},
-  journal={arXiv preprint arXiv:2203.08553},
+  journal={ICML 2022},
   year={2022}
 }
 ```
