@@ -24,8 +24,8 @@ Known dependencies: Python (3.6.13), OpenAI gym (0.10.5), torch (1.8.1+cu102), n
 
 ## Command-line options 
 - `--env_name`: defines which environment in the MPE is to be used (default: `"simple"`)
-- `--max_adv_c` coefficient of maximizing mutual information (e.q., \alpha in paper)
-- `--min_adv_c` coefficient of minimizing mutual information (e.q., \beta in paper)
+- `--max_adv_c` coefficient of maximizing mutual information (i.e., \alpha in paper)
+- `--min_adv_c` coefficient of minimizing mutual information (i.e., \beta in paper)
 - `--gpu-no`: gpu num (default: `-1`)
 - `--MI_update_freq` update frequency of MINE and CLUB (default: `1`)
 - `--max_length` total time steps
